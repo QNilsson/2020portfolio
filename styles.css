@@ -1,8 +1,20 @@
-body {
-	margin: auto;
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background:linear-gradient( 75deg, #FCD5BF, #FBC994);
 }
 
 .navbar-custom {
-	background-color: peachpuff;
-
+	background-color:#fcd5bf;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link{
+	color: hsl(15, 72%, 58%);
+}
+h2{
+	font-family: 'Oldenburg', cursive;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
 }
