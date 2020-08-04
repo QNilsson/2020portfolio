@@ -17,8 +17,8 @@ body{
 .top{
 	background-color:#536c6d;
 }
-h2{
-	font-family: 'Oldenburg', cursive;
+h1{
+	font-family: 'Poiret One', cursive;
 }
 p{
 	font-family: 'Open Sans', sans-serif;
@@ -32,5 +32,16 @@ img{
 }
 #skills{
 	color:#1a2323;
+}
+button{
+	margin:5px;
+}
+i{
+	font-size:70px;
+	color: #1a2323;
+}
+#social{
+	color:white;
+	font-size:30px
 }
 
