@@ -3,18 +3,34 @@
 }
 
 body{
-	background:linear-gradient( 75deg, #FCD5BF, #FBC994);
+	background-color: white;
+	color:white;
 }
 
 .navbar-custom {
-	background-color:#fcd5bf;
+	background-color:#1a2323;
+	font-family: 'Oldenburg', cursive;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link{
-	color: hsl(15, 72%, 58%);
+	color: #ebe4d2;
+}
+.top{
+	background-color:#536c6d;
 }
 h2{
 	font-family: 'Oldenburg', cursive;
 }
 p{
 	font-family: 'Open Sans', sans-serif;
+	
 }
+img{
+	border:1px solid #ebe4d2;
+}
+.h3{
+	font-family: 'Oldenburg', cursive;
+}
+#skills{
+	color:#1a2323;
+}
+
