@@ -5,14 +5,22 @@
 body{
 	background-color: white;
 	color:white;
+	
 }
 
 .navbar-custom {
 	background-color:#1a2323;
-	font-family: 'Oldenburg', cursive;
+	font-family: 'Poiret One', cursive;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link{
 	color: #ebe4d2;
+	font-size:24px;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link:hover{
+	color: #536c6d;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link:active{
+	color: #536c6d;
 }
 .top{
 	background-color:#536c6d;
@@ -28,7 +36,7 @@ img{
 	border:1px solid #ebe4d2;
 }
 .h3{
-	font-family: 'Oldenburg', cursive;
+	font-family: 'Poiret One', cursive;
 }
 #skills{
 	color:#1a2323;
