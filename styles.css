@@ -5,6 +5,7 @@
 body{
 	background-color: white;
 	color:white;
+	font-size:25px;
 	
 }
 .navbar-custom {
@@ -34,6 +35,8 @@ p{
 }
 img{
 	border:1px solid #ebe4d2;
+	width:400px;
+	height:400px;
 }
 .h3{
 	font-family: 'Poiret One', cursive;
@@ -55,6 +58,10 @@ footer{
 	color:white;
 	font-size:30px;
 	padding:5px;
+}
+#intro{
+	margin-right: 270px;
+	margin-left:285px;
 }
 
 
