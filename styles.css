@@ -6,8 +6,11 @@ body{
 	background-color: white;
 	color:white;
 	font-size:25px;
+	font-family: 'Open Sans' sans-serif;
+	padding-bottom:0;	
 	
 }
+
 .navbar-custom {
 	background-color:#1a2323;
 	font-family: 'Poiret One', cursive;
@@ -52,16 +55,32 @@ i{
 	color: #1a2323;
 }
 footer{
-	font-size:20px;
+	background-color:#1a2323;;
+	font-size:18px;
+	color: #ebe4d2;
+	position: absolute;
+	bottom:0;
+	width:100%;
+	margin-bottom: 0;
 }
 #social{
-	color:white;
+	color: #ebe4d2;
 	font-size:30px;
 	padding:5px;
 }
 #intro{
 	margin-right: 270px;
 	margin-left:285px;
+}
+.marketing{
+	color:black;
+}
+.featurette-heading, .text-muted{
+	font-family: 'Poiret One', cursive;
+}
+.btn-custom{
+	background-color: #536c6d;
+	color:#ebe4d2;
 }
 
 
