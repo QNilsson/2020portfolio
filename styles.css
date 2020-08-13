@@ -5,12 +5,17 @@
 body{
 	background-color: white;
 	color:white;
-	font-size:25px;
-	font-family: 'Open Sans' sans-serif;
+	font-size:20px;
+	font-family: 'GFS Neohellenic', sans-serif;
 	padding-bottom:0;	
-	
+}
+h1{
+	font-family: 'Poiret One', cursive;
 }
 
+main{
+	width:100%;
+}
 .navbar-custom {
 	background-color:#1a2323;
 	font-family: 'Poiret One', cursive;
@@ -18,7 +23,7 @@ body{
 }
 .navbar-custom .navbar-nav .nav-item .nav-link{
 	color: #ebe4d2;
-	font-size:24px;
+	font-size:20px;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link:hover{
 	color: #536c6d;
@@ -29,34 +34,36 @@ body{
 .top{
 	background-color:#536c6d;
 }
-h1{
-	font-family: 'Poiret One', cursive;
-}
-p{
-	font-family: 'Open Sans', sans-serif;
-	
-}
 img{
-	border:1px solid #ebe4d2;
-	width:400px;
-	height:400px;
+	
+	width:500px;
+	height:300px;
 }
-.h3{
+#img1, #img2, #img3{
+	max-width:300px;
+	height:300px;
+	border:1px solid #ebe4d2;
+}
+.h4{
 	font-family: 'Poiret One', cursive;
 }
 #skills{
 	color:#1a2323;
 }
-button{
-	margin:5px;
-}
+
 i{
 	font-size:70px;
 	color: #1a2323;
 }
+#intro{
+	font-family: 'GFS Neohellenic', sans-serif;
+	text-align: center;
+	max-width:1000px;
+
+}
 footer{
 	background-color:#1a2323;;
-	font-size:18px;
+	font-size:13px;
 	color: #ebe4d2;
 	position: absolute;
 	bottom:0;
@@ -65,13 +72,10 @@ footer{
 }
 #social{
 	color: #ebe4d2;
-	font-size:30px;
+	font-size:20px;
 	padding:5px;
 }
-#intro{
-	margin-right: 270px;
-	margin-left:285px;
-}
+
 .marketing{
 	color:black;
 }
@@ -80,7 +84,14 @@ footer{
 }
 .btn-custom{
 	background-color: #536c6d;
-	color:#ebe4d2;
+	color:white;
+	font-family: 'GFS Neohellenic', sans-serif;
+	
+}
+#about{
+	color:black;
+	font-family: 'GFS Neohellenic', sans-serif;
+
 }
 
 
