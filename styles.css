@@ -2,12 +2,7 @@
 	box-sizing: border-box;
 }
 
-@media only screen and (max-width:600px){
-	body, .container, .intro{
-		margin:auto;
-		align-content: center;
-	}
-}
+
 body{
 	background-color: white;
 	color:white;
@@ -23,6 +18,7 @@ h1{
 main{
 	width:100%;
 	background-color:white;
+
 
 }
 .navbar-custom {
@@ -47,14 +43,11 @@ main{
 	height:350px;
 	max-width: 350px;
 	border:1px solid #ebe4d2;
-	align-items: center;	
-	margin-left:100px;
+		
 }
-#engage{
-	width: 430px;
-	height: auto;
-	border:1px solid #536c6d;
-
+#me-photo{
+	
+	margin:auto;
 }
 
 
@@ -111,28 +104,54 @@ main{
 	  opacity:1;
   }
 }
+#skills{
+	color:black;
+	background-color:white;
+	margin-top:100px;
+	margin-bottom:100px;
+	
+}
 
 
-
-h3{
+h2{
 	font-family: 'Poiret One', cursive;
 }
-.middle{
-	margin:auto;
-	color:black;
+.about{
+	margin: 0 auto;
+	color:#1a2323;
 	font-family: 'Raleway', sans-serif;
-}
-#bio{
-	font-size:22px;
-}
-#skills{
-	color:#ebe4d2;
-	background-color:#536c6d;
+	background-color:#ebe4d2;
+
 }
 
+#engage{
+	width:100%;
+	height: auto;
+	border:1px solid #536c6d;
+}
+
+#bio{
+	font-size:22px;
+	height: auto;
+	overflow-wrap: break-word;
+
+}
+.my-life{
+	overflow: hidden;
+	vertical-align: middle;
+	
+	
+}
 i{
 	font-size:70px;
-	color: #ebe4d2;
+	color:#1a2323;
+	margin-bottom:2px;
+}
+
+
+h4{
+	color:#1a2323;
+	font-family: 'Poiret', sans-serif;
 }
 
 footer{
@@ -143,6 +162,7 @@ footer{
 	bottom:0;
 	width:100%;
 	margin-bottom: 0;
+	margin-top:400px;
 }
 #social{
 	color: #ebe4d2;
