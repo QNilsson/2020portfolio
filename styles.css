@@ -154,7 +154,7 @@ h4{
 	font-family: 'Poiret', sans-serif;
 }
 
-footer{
+/* footer{
 	background-color:#1a2323;;
 	font-size:13px;
 	color: #ebe4d2;
@@ -163,10 +163,20 @@ footer{
 	width:100%;
 	margin-bottom: 0;
 	margin-top:400px;
+} */
+
+footer{
+	background-color: #1a2323;
+	color:#ebe4d2;
+	font-family: 'Raleway';
+}
+#footer-content{
+	text-align: center;
+
 }
 #social{
 	color: #ebe4d2;
-	font-size:20px;
+	font-size:35px;
 	padding:5px;
 }
 
