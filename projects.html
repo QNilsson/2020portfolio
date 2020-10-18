@@ -1,118 +1,245 @@
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles.css" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles.css" />
-	
-	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap" rel="stylesheet">
-	<title>Quinn's 2020 Portfolio</title>
-</head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Quinn's 2020 Portfolio</title>
+	</head>
 
-<body>
-	<nav class="navbar navbar-expand-sm navbar-custom">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link active" href="/index.html">Home</a>
-			</li>
-			
-			<li class="nav-item">
-				<a class="nav-link" href="#">Projects</a>
-			</li>
-		</ul>
-	</nav>
-	<main class="mx-auto">
-		<div class="container marketing">
+	<body>
+		<nav class="navbar navbar-expand-sm navbar-custom">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="/index.html">Home</a>
+				</li>
 
-			<!--FINAL SCORE PROJECT-->
-		<div class="row featurette pt-5">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">
-					Final Score
-				</h2>
-				<span class="text-muted">Vue</span>
-				<p class="lead">
-					I worked in a group of 5 people to create a digital score keeper card. Each of us decided on which game we wanted to use and 
-					came up with a design for it. We then used Vue.js and its components to code dynamic and interactive score cards. I chose to use the game
-					Qwixx. 
-				</p>
-				<p><a href="https://final-score.netlify.app/" target="_blank" class="btn btn-custom btn-sm p-2" href="#" role="button">Final Score site</a></p>
-			</div>
-			<div class="col-md-5">
-				<img class="featurette-image img-fluid mx-auto"  src="https://specials-images.forbesimg.com/imageserve/1127585370/960x0.jpg?fit=scale" alt="">
-			</div>
-		</div><!--end row featurette-->
-		<hr class="featurette-divider">
-
-		<!--KITTEN BOOTSTRAP PROJECT-->
-		<div class="row featurette">
-			<div class="col-md-5">
-				<img class="featurette-image img-fluid mx-auto" src="https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3-1200-80.jpg" alt="">
-			</div>
-			<div class="col-md-7">
-				<h2 class="featurette-heading">
-					Kitten Website
-				</h2>
-				<span class="text-muted">Bootstrap</span>
-				<p class="lead">
-					This was a project for one of my webtools and frameworks classes. We used Bootstrap and LESS to come up 
-					with a few clean pages for any subject we chose. 
-				</p>
-				<p><a href="https://serene-keller-ae5322.netlify.app/" target="_blank" class="btn btn-custom btn-sm p-2" href="#" role="button">Kitten site</a></p>
-			</div>
-		</div><!--end row featurette-->
-		<hr class="featurette-divider">
-			<!--REACT STAR WARS PROJECT-->
-		<div class="row featurette py-3">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">
-					Weather App
-				</h2>
-				<span class="text-muted">React</span>
-				<p class="lead">
-					Created an app to fetch local weather data. I used the Open Weather API to fetch data and display it. I decided to use the lattitude 
-					and longitude endpoints to collect the data and used styling components such as Material UI and Boostrap.
-				</p>
-				<p><a href="https://silly-gates-5a4886.netlify.app/" target="_blank" class="btn btn-custom btn-sm p-2" href="#" role="button">Weather App</a></p>
-			</div>
-			<div class="col-md-5">
-				<img class="featurette-image img-fluid mx-auto"  src="/images/weather.jpg" alt="">
-			</div>
-		</div><!--end row featurette-->
-
-
-	</div><!--end container marketing-->
-	</main>
-	<div class="footer">
-		<nav class="navbar navbar-default navbar-custom py-2">
-			<div class="container-fluid d-flex p-2 justify-content-center">
-				&copyQuinn Nilsson 2020
-				<div class="social-footer d-flex justify-content-center">
-					<a href="https://www.facebook.com/quinn.nilsson" target="_blank"> <i id="social" class="fab fa-facebook"></i></a>
-					<a href="https://github.com/QNilsson" target="_blank"><i id="social" class="fab fa-github"></i></a>
-					<a href="https://www.instagram.com/dogs.andsometimesquinn/" target="_blank"><i id="social" class="fab fa-instagram"></i></a>
-					<a href="https://www.linkedin.com/in/quinn-nilsson-236825132/" target="_blank"><i id="social" class="fab fa-linkedin"></i></a>
-				</div>
-
-			</div>
-
-			
-
+				<li class="nav-item">
+					<a class="nav-link" href="#">Projects</a>
+				</li>
+			</ul>
 		</nav>
-	</div>
-</body>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-	</script>
-	<script src="https://kit.fontawesome.com/52c91d882e.js" crossorigin="anonymous"></script>
+		<main class="mx-auto">
+			<div class="container marketing">
+				<!--FINAL SCORE PROJECT-->
+				<div class="row featurette pt-5">
+					<div class="col-md-7">
+						<h2 class="featurette-heading">Final Score</h2>
+						<span class="text-muted">Vue</span>
+						<p class="lead">
+							I worked in a group of 5 people to create a digital score keeper
+							card. Each of us decided on which game we wanted to use and came
+							up with a design for it. We then used Vue.js and its components to
+							code dynamic and interactive score cards. I chose to use the game
+							Qwixx.
+						</p>
+						<p>
+							<a
+								href="https://final-score.netlify.app/"
+								target="_blank"
+								class="btn btn-custom btn-sm p-2"
+								href="#"
+								role="button"
+								>Final Score site</a
+							>
+						</p>
+					</div>
+					<div class="col-md-5">
+						<img
+							class="featurette-image img-fluid mx-auto"
+							src="https://specials-images.forbesimg.com/imageserve/1127585370/960x0.jpg?fit=scale"
+							alt=""
+						/>
+					</div>
+				</div>
+				<!--end row featurette-->
+				<hr class="featurette-divider" />
 
+				<!--KITTEN BOOTSTRAP PROJECT-->
+				<div class="row featurette">
+					<div class="col-md-5">
+						<img
+							class="featurette-image img-fluid mx-auto"
+							src="https://cdn.mos.cms.futurecdn.net/vChK6pTy3vN3KbYZ7UU7k3-1200-80.jpg"
+							alt=""
+						/>
+					</div>
+					<div class="col-md-7">
+						<h2 class="featurette-heading">Kitten Website</h2>
+						<span class="text-muted">Bootstrap</span>
+						<p class="lead">
+							This was a project for one of my webtools and frameworks classes.
+							We used Bootstrap and LESS to come up with a few clean pages for
+							any subject we chose.
+						</p>
+						<p>
+							<a
+								href="https://serene-keller-ae5322.netlify.app/"
+								target="_blank"
+								class="btn btn-custom btn-sm p-2"
+								href="#"
+								role="button"
+								>Kitten site</a
+							>
+						</p>
+					</div>
+				</div>
+				<!--end row featurette-->
+				<hr class="featurette-divider" />
+				<!--REACT STAR WARS PROJECT-->
+				<div class="row featurette py-3">
+					<div class="col-md-7">
+						<h2 class="featurette-heading">Weather App</h2>
+						<span class="text-muted">React</span>
+						<p class="lead">
+							Created an app to fetch local weather data. I used the Open
+							Weather API to fetch data and display it. I decided to use the
+							lattitude and longitude endpoints to collect the data and used
+							styling components such as Material UI and Boostrap.
+						</p>
+						<p>
+							<a
+								href="https://silly-gates-5a4886.netlify.app/"
+								target="_blank"
+								class="btn btn-custom btn-sm p-2"
+								href="#"
+								role="button"
+								>Weather App</a
+							>
+						</p>
+					</div>
+					<div class="col-md-5">
+						<img
+							class="featurette-image img-fluid mx-auto"
+							src="/images/weather.jpg"
+							alt=""
+						/>
+					</div>
+				</div>
+				<!--end row featurette-->
+			</div>
+			<!--end container marketing-->
+		</main>
+		<!-- Footer -->
+		<footer class="page-footer font-small blue pt-4">
+			<!-- Footer Links -->
+			<div class="container-fluid text-center text-md-left">
+				<!-- Grid row -->
+				<div class="row">
+					<!-- Grid column -->
+					<div class="col-md-4 mt-md-0 mt-3" id="footer-content">
+						<!-- Content -->
+						<h5 class="text-uppercase">Contact Me:</h5>
+						<span class="d-flex justify-content-center"
+							><i id="social" class="far fa-envelope"></i>
+							<p class="px-1">quinn.nilsson@gmail.com</p></span
+						>
+						<span class="d-flex justify-content-center"
+							><i id="social" class="fas fa-mobile-alt"></i>
+							<p class="px-1">801-651-0354</p></span
+						>
+					</div>
+					<!-- Grid column -->
+
+					<hr class="clearfix w-100 d-md-none pb-3" />
+
+					<!-- Grid column -->
+					<div class="col-md-4 mb-md-0 mb-3" id="footer-content">
+						<!-- Links -->
+						<h5 class="text-uppercase">On the web</h5>
+
+						<div>
+							<a href="https://www.facebook.com/quinn.nilsson" target="_blank">
+								<i id="social" class="fab fa-facebook"></i
+							></a>
+							<a href="https://github.com/QNilsson" target="_blank"
+								><i id="social" class="fab fa-github"></i
+							></a>
+							<a
+								href="https://www.instagram.com/dogs.andsometimesquinn/"
+								target="_blank"
+								><i id="social" class="fab fa-instagram"></i
+							></a>
+							<a
+								href="https://www.linkedin.com/in/quinn-nilsson-236825132/"
+								target="_blank"
+								><i id="social" class="fab fa-linkedin"></i
+							></a>
+						</div>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-4 mb-md-0 mb-3" id="footer-content">
+						<!-- Links -->
+						<h5 class="text-uppercase">Links</h5>
+
+						<ul class="list-unstyled">
+							<li>
+								<a href="./projects.html">Projects</a>
+							</li>
+							<li></li>
+							<li>
+								<a href="./index.html">Home</a>
+							</li>
+							<li>
+								<a href="#!">Blog</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+			<!-- Footer Links -->
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">
+				© 2020 Copyright: Quinn Nilsson
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<!-- Footer -->
+	</body>
+	<script
+		src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://kit.fontawesome.com/52c91d882e.js"
+		crossorigin="anonymous"
+	></script>
 </html>
