@@ -1,55 +1,35 @@
-*{
+* {
 	box-sizing: border-box;
 }
 
-
-body{
+/*------------HOME CONTENT------------*/
+body {
 	background-color: white;
-	color:white;
-	font-size:20px;
+	color: white;
+	font-size: 20px;
 	font-family: 'GFS Neohellenic', sans-serif;
-	padding-bottom:0;	
-	
+	padding-bottom: 0;
 }
-h1{
+h1 {
 	font-family: 'Poiret One', cursive;
 }
 
-main{
-	width:100%;
-	background-color:white;
+main {
+	width: 100%;
+	background-color: white;
+}
 
-
+.top {
+	background-color: #536c6d;
 }
-.navbar-custom {
-	background-color:#1a2323;
-	font-family: 'Poiret One', cursive;
-	
-}
-.navbar-custom .navbar-nav .nav-item .nav-link{
-	color: #ebe4d2;
-	font-size:20px;
-}
-.navbar-custom .navbar-nav .nav-item .nav-link:hover{
-	color: #536c6d;
-}
-.navbar-custom .navbar-nav .nav-item .nav-link:active{
-	color: #536c6d;
-}
-.top{
-	background-color:#536c6d;
-}
- #img2{
-	height:350px;
+#img2 {
+	height: 350px;
 	max-width: 350px;
-	border:1px solid #ebe4d2;
-		
+	border: 1px solid #ebe4d2;
 }
-#me-photo{
-	
-	margin:auto;
+#me-photo {
+	margin: auto;
 }
-
 
 .intro {
 	line-height: 2.5rem;
@@ -59,143 +39,140 @@ main{
 	-moz-animation: fadeIn ease 7s;
 	-o-animation: fadeIn ease 7s;
 	-ms-animation: fadeIne ease 7s;
-
 }
-@keyframes fadeIn{
-	0%{
+@keyframes fadeIn {
+	0% {
 		opacity: 0;
 	}
-	100%{
+	100% {
 		opacity: 1;
 	}
 }
 @-moz-keyframes fadeIn {
 	0% {
-	  opacity:0;
+		opacity: 0;
 	}
 	100% {
-	  opacity:1;
+		opacity: 1;
 	}
-  }
-  
-  @-webkit-keyframes fadeIn {
-	0% {
-	  opacity:0;
-	}
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-o-keyframes fadeIn {
-	0% {
-	  opacity:0;
-	}
-	100% {
-	  opacity:1;
-	}
-  }
-  
-  @-ms-keyframes fadeIn {
-	0% {
-	  opacity:0;
-	}
-	100% {
-	  opacity:1;
-  }
-}
-#skills{
-	color:black;
-	background-color:white;
-	margin-top:100px;
-	margin-bottom:100px;
-	
 }
 
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
-h2{
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#skills {
+	color: black;
+	background-color: white;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+h2 {
 	font-family: 'Poiret One', cursive;
 }
-.about{
+.about {
 	margin: 0 auto;
-	color:#1a2323;
+	color: #1a2323;
 	font-family: 'Raleway', sans-serif;
-	background-color:#ebe4d2;
-
+	background-color: #ebe4d2;
 }
 
-#engage{
-	width:100%;
+#engage {
+	width: 100%;
 	height: auto;
-	border:1px solid #536c6d;
+	border: 1px solid #536c6d;
 }
 
-#bio{
-	font-size:22px;
+#bio {
+	font-size: 22px;
 	height: auto;
 	overflow-wrap: break-word;
-
 }
-.my-life{
+.my-life {
 	overflow: hidden;
 	vertical-align: middle;
-	
-	
 }
-i{
-	font-size:70px;
-	color:#1a2323;
-	margin-bottom:2px;
+i {
+	font-size: 70px;
+	color: #1a2323;
+	margin-bottom: 2px;
 }
 
-
-h4{
-	color:#1a2323;
+h4 {
+	color: #1a2323;
 	font-family: 'Poiret', sans-serif;
 }
 
-/* footer{
-	background-color:#1a2323;;
-	font-size:13px;
-	color: #ebe4d2;
-	position: absolute;
-	bottom:0;
-	width:100%;
-	margin-bottom: 0;
-	margin-top:400px;
-} */
+/*-----------------------NAVIGATION---------------*/
 
-footer{
+.navbar-custom {
 	background-color: #1a2323;
-	color:#ebe4d2;
+	font-family: 'Poiret One', cursive;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+	color: #ebe4d2;
+	font-size: 20px;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link:hover {
+	color: #536c6d;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link:active {
+	color: #536c6d;
+}
+
+/*--------------FOOTER-----------------------------*/
+footer {
+	background-color: #1a2323;
+	color: #ebe4d2;
 	font-family: 'Raleway';
 }
-#footer-content{
+#footer-content {
 	text-align: center;
-
 }
-#social{
+#social {
 	color: #ebe4d2;
-	font-size:35px;
-	padding:5px;
+	font-size: 35px;
+	padding: 5px;
 }
 
-.marketing{
-	color:black;
+.marketing {
+	color: black;
 }
-.featurette-heading, .text-muted{
+/*-----------------------PROJECTS PAGE---------------------*/
+.featurette-heading,
+.text-muted {
 	font-family: 'Poiret One', cursive;
 }
-.btn-custom{
+.btn-custom {
 	background-color: #536c6d;
-	color:white;
+	color: white;
 	font-family: 'Open Sans', sans-serif;
-	
 }
-#about{
-	color:black;
+#about {
+	color: black;
 	font-family: 'Poiret One', cursive;
-
 }
-
-
