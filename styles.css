@@ -91,6 +91,10 @@ main {
 	margin-bottom: 100px;
 }
 
+.icons{
+	font-size:4rem;
+}
+
 h2 {
 	font-family: 'Poiret One', cursive;
 }
@@ -116,11 +120,7 @@ h2 {
 	overflow: hidden;
 	vertical-align: middle;
 }
-i {
-	font-size: 70px;
-	color: #1a2323;
-	margin-bottom: 2px;
-}
+
 
 h4 {
 	color: #1a2323;
@@ -132,16 +132,21 @@ h4 {
 .navbar-custom {
 	background-color: #1a2323;
 	font-family: 'Poiret One', cursive;
+	color:#ebe4d2;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
 	color: #ebe4d2;
 	font-size: 20px;
+	display: flex;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link:hover {
 	color: #536c6d;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link:active {
 	color: #536c6d;
+}
+#download{
+	padding: 5 15 5 5;
 }
 
 /*--------------FOOTER-----------------------------*/
@@ -176,3 +181,4 @@ footer {
 	color: black;
 	font-family: 'Poiret One', cursive;
 }
+
