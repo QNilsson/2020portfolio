@@ -1,7 +1,27 @@
 * {
 	box-sizing: border-box;
 }
+/*-----------------------NAVIGATION---------------*/
 
+.navbar-custom {
+	background-color: #1a2323;
+	font-family: 'Poiret One', cursive;
+	color:#ebe4d2;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+	color: #ebe4d2;
+	font-size: 20px;
+	display: flex;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link:hover {
+	color: #536c6d;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link:active {
+	color: #536c6d;
+}
+#download{
+	padding: 5 15 5 10;
+}
 /*------------HOME CONTENT------------*/
 body {
 	background-color: white;
@@ -127,46 +147,9 @@ h4 {
 	font-family: 'Poiret', sans-serif;
 }
 
-/*-----------------------NAVIGATION---------------*/
 
-.navbar-custom {
-	background-color: #1a2323;
-	font-family: 'Poiret One', cursive;
-	color:#ebe4d2;
-}
-.navbar-custom .navbar-nav .nav-item .nav-link {
-	color: #ebe4d2;
-	font-size: 20px;
-	display: flex;
-}
-.navbar-custom .navbar-nav .nav-item .nav-link:hover {
-	color: #536c6d;
-}
-.navbar-custom .navbar-nav .nav-item .nav-link:active {
-	color: #536c6d;
-}
-#download{
-	padding: 5 15 5 5;
-}
 
-/*--------------FOOTER-----------------------------*/
-footer {
-	background-color: #1a2323;
-	color: #ebe4d2;
-	font-family: 'Raleway';
-}
-#footer-content {
-	text-align: center;
-}
-#social {
-	color: #ebe4d2;
-	font-size: 35px;
-	padding: 5px;
-}
 
-.marketing {
-	color: black;
-}
 /*-----------------------PROJECTS PAGE---------------------*/
 .featurette-heading,
 .text-muted {
@@ -180,5 +163,39 @@ footer {
 #about {
 	color: black;
 	font-family: 'Poiret One', cursive;
+}
+/*--------------FOOTER-----------------------------*/
+footer {
+	background-color: #1a2323;
+	color: #ebe4d2;
+	font-family: 'Raleway';
+}
+#footer-content {
+	text-align: center;
+}
+#social {
+	color: #ebe4d2;
+	font-size:35px;
+	padding: 5px;
+}
+#social:hover{
+	color:#536c6d;
+}
+
+#contact{
+	font-size:20px;
+	padding:7 5 5 5;
+}
+a:hover{
+	color:#536c6d;
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+
+.marketing {
+	color: black;
 }
 
