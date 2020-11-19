@@ -47,9 +47,11 @@ main {
 	max-width: 350px;
 	border: 1px solid #ebe4d2;
 }
-#me-photo {
-	margin: auto;
+#me-photo{
+	text-align: center ;
+	
 }
+
 
 .intro {
 	line-height: 2.5rem;
