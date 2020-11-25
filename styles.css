@@ -51,21 +51,21 @@ main {
 	text-align: center;
 	line-height: 2.5rem;
 	font-family: 'Raleway', sans-serif;
-	animation: fadeIn ease 3s;
-	-webkit-animation: fadeIn ease 3s;
-	-moz-animation: fadeIn ease 3s;
-	-o-animation: fadeIn ease 3s;
-	-ms-animation: fadeIne ease 3s;
+	animation: fadeIn ease 2s;
+	-webkit-animation: fadeIn ease 2s;
+	-moz-animation: fadeIn ease 2s;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIne ease 2s;
 }
 
 .intro {
 	line-height: 2.5rem;
 	font-family: 'Raleway', sans-serif;
-	animation: fadeIn ease 3s;
-	-webkit-animation: fadeIn ease 3s;
-	-moz-animation: fadeIn ease 3s;
-	-o-animation: fadeIn ease 3s;
-	-ms-animation: fadeIne ease 3s;
+	animation: fadeIn ease 2s;
+	-webkit-animation: fadeIn ease 2s;
+	-moz-animation: fadeIn ease 2s;
+	-o-animation: fadeIn ease 2s;
+	-ms-animation: fadeIne ease 2s;
 }
 @keyframes fadeIn {
 	0% {
