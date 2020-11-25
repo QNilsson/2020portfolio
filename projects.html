@@ -2,6 +2,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./javascript/index.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -47,7 +49,7 @@
 		<main class="mx-auto intro" >
 			<div class="container marketing">
 				<!--FINAL SCORE PROJECT-->
-				<div class="row featurette pt-5">
+				<div class="row featurette pt-5" data-aos="fade-right" data-aos-duration="1100" data-aos-easing="ease-in-out">
 					<div class="col-md-7">
 						<h2 class="featurette-heading">Final Score</h2>
 						<span class="text-muted">Vue</span>
@@ -81,7 +83,7 @@
 				<hr class="featurette-divider" />
 
 				<!--KITTEN BOOTSTRAP PROJECT-->
-				<div class="row featurette">
+				<div class="row featurette" data-aos="fade-left" data-aos-duration="1100" data-aos-easing="ease-in-out">
 					<div class="col-md-5">
 						<img
 							class="featurette-image img-fluid mx-auto"
@@ -112,7 +114,7 @@
 				<!--end row featurette-->
 				<hr class="featurette-divider" />
 				<!--REACT WEATHER APP PROJECT-->
-				<div class="row featurette py-3">
+				<div class="row featurette py-3" data-aos="fade-right" data-aos-duration="1100" data-aos-easing="ease-in-out">
 					<div class="col-md-7">
 						<h2 class="featurette-heading">Weather App</h2>
 						<span class="text-muted">React</span>
@@ -144,7 +146,7 @@
 				<!--end row featurette-->
 				<hr class="featurette-divider" />
 				<!---------------------REACT RECIPES---------------------------------->
-				<div class="row featurette">
+				<div class="row featurette" data-aos="fade-left" data-aos-duration="1100" data-aos-easing="ease-in-out">
 					<div class="col-md-5">
 						<img
 							class="featurette-image img-fluid mx-auto"
@@ -175,7 +177,7 @@
 				<!----------end row featureete recipes-->
 				<hr class="featurette-divider" />
 
-				<div class="row featurette py-3">
+				<div class="row featurette py-3" data-aos="fade-right" data-aos-duration="1100" data-aos-easing="ease-in-out">
 					<div class="col-md-7">
 						<h2 class="featurette-heading">Pyrex Site</h2>
 						<span class="text-muted">HTML & CSS</span>
@@ -284,6 +286,10 @@
 			<!-- Copyright -->
 		</footer>
 		<!-- Footer -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
 	</body>
 	<script
 		src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -6,7 +6,7 @@
 .navbar-custom {
 	background-color: #1a2323;
 	font-family: 'Poiret One', cursive;
-	color:#ebe4d2;
+	color: #ebe4d2;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
 	color: #ebe4d2;
@@ -19,7 +19,7 @@
 .navbar-custom .navbar-nav .nav-item .nav-link:active {
 	color: #536c6d;
 }
-#download{
+#download {
 	padding: 5 15 5 10;
 }
 /*------------HOME CONTENT------------*/
@@ -47,8 +47,8 @@ main {
 	max-width: 350px;
 	border: 1px solid #ebe4d2;
 }
-#me-photo{
-	text-align: center ;
+#me-photo {
+	text-align: center;
 	line-height: 2.5rem;
 	font-family: 'Raleway', sans-serif;
 	animation: fadeIn ease 3s;
@@ -56,9 +56,7 @@ main {
 	-moz-animation: fadeIn ease 3s;
 	-o-animation: fadeIn ease 3s;
 	-ms-animation: fadeIne ease 3s;
-	
 }
-
 
 .intro {
 	line-height: 2.5rem;
@@ -118,10 +116,18 @@ main {
 	background-color: white;
 	margin-top: 100px;
 	margin-bottom: 100px;
+	position: relative;
+}
+#hobbies {
+	color: black;
+	background-color: white;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
 }
 
-.icons{
-	font-size:4rem;
+.icons {
+	font-size: 4rem;
 }
 
 h2 {
@@ -150,14 +156,10 @@ h2 {
 	vertical-align: middle;
 }
 
-
 h4 {
 	color: #1a2323;
 	font-family: 'Poiret', sans-serif;
 }
-
-
-
 
 /*-----------------------PROJECTS PAGE---------------------*/
 .featurette-heading,
@@ -184,27 +186,25 @@ footer {
 }
 #social {
 	color: #ebe4d2;
-	font-size:35px;
+	font-size: 35px;
 	padding: 5px;
 }
-#social:hover{
-	color:#536c6d;
+#social:hover {
+	color: #536c6d;
 }
 
-#contact{
-	font-size:20px;
-	padding:7 5 5 5;
+#contact {
+	font-size: 20px;
+	padding: 7 5 5 5;
 }
-a:hover{
-	color:#536c6d;
+a:hover {
+	color: #536c6d;
 }
-a{
+a {
 	text-decoration: none;
-	color:inherit;
+	color: inherit;
 }
-
 
 .marketing {
 	color: black;
 }
-

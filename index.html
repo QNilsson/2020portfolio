@@ -2,6 +2,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./javascript/index.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -75,11 +77,11 @@
 				<!--end container-->
 			</div>
 			<!--end top-->
-			<div class="container-fluid text-center py-4" id="skills">
+			<div class="container-fluid text-center py-4">
 				<div class="row">
-					<div class="col-md-6 col-sm-12 px-5">
+					<div class="col-md-6 col-sm-12 px-5" data-aos="fade-right" data-aos-duration="1100" data-aos-easing="ease-in-out" id="skills">
 						<h2 px-4 py-4>My Skills</h2>
-						<div class="icons py-3 px-5">
+						<div class="icons py-3 px-5" >
 							<i class="fab fa-html5 icon-large"></i>
 							<i class="fab fa-css3-alt mx-2"></i>
 							<i class="fab fa-sass mx-2"></i>
@@ -92,7 +94,7 @@
 						</div>
 					</div>
 					<!--end col skills-->
-					<div class="col-md-6 col-sm-12 px-5" id="hobbies">
+					<div class="col-md-6 col-sm-12 px-5" data-aos="fade-left" data-aos-duration="1100" data-aos-easing="ease-in-out"id="hobbies">
 						<h2 px-4 py-4>My Hobbies</h2>
 						<div class="icons py-3 px-5">
 							<i class="fas fa-cat mx-3"></i>
@@ -199,6 +201,10 @@
 			<!-- Copyright -->
 		</footer>
 		<!-- Footer -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
 	</body>
 	<script
 		src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
