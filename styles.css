@@ -49,6 +49,13 @@ main {
 }
 #me-photo{
 	text-align: center ;
+	line-height: 2.5rem;
+	font-family: 'Raleway', sans-serif;
+	animation: fadeIn ease 3s;
+	-webkit-animation: fadeIn ease 3s;
+	-moz-animation: fadeIn ease 3s;
+	-o-animation: fadeIn ease 3s;
+	-ms-animation: fadeIne ease 3s;
 	
 }
 
