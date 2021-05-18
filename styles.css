@@ -5,12 +5,12 @@
 
 .navbar-custom {
 	background-color: #1a2323;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Scope One',serif;
 	color: #ebe4d2;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
 	color: #ebe4d2;
-	font-size: 20px;
+	font-size: 15px;
 	display: flex;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link:hover {
@@ -156,30 +156,49 @@ h2, h3, h4 {
 }
 .inner-box{
 	background-color: #536c6d;
-	width:90vw;
-	height:300px;
+	width:100vw;
+	height:400px;
+	color:white;
+	padding:0 40 0 40;
+	align-items: center;
+	text-align: center;
+}
+
+form{
+	color:white;
+}
+
+.btn-lg {
+	background-color: #1a2323;
+	border-radius: 0;
+	color:white;
+}
+.btn-lg:hover{
+	cursor: pointer;
+	color:#536c6d;
 }
 
 
 /*-----------------------PROJECTS PAGE---------------------*/
 .featurette-heading,
 .text-muted {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Scope One',serif;
 }
 .btn-custom {
 	background-color: #536c6d;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway',sans-serif;
 }
 #about {
 	color: black;
 	font-family: 'Poiret One', cursive;
 }
+
 /*--------------FOOTER-----------------------------*/
 footer {
 	background-color: #1a2323;
 	color: #ebe4d2;
-	font-family: 'Raleway';
+	font-family: 'Scope One', serif;
 }
 #footer-content {
 	text-align: center;
