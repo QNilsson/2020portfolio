@@ -150,7 +150,14 @@ h2, h3, h4 {
 	background-color: #ebe4d2;
 }
 
-
+.contact-me{
+	background-color: white;
+	color:#1a2323;
+}
+.inner-box{
+	background-color: #536c6d;
+	width:80vw;
+}
 
 
 /*-----------------------PROJECTS PAGE---------------------*/
