@@ -5,7 +5,7 @@
 
 .navbar-custom {
 	background-color: #1a2323;
-	font-family: 'Scope One',serif;
+	font-family: "Scope One", serif;
 	color: #ebe4d2;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -27,12 +27,11 @@ body {
 	background-color: white;
 	color: white;
 	font-size: 20px;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	padding-bottom: 0;
 }
 h1 {
-	font-family: 'Scope One', serif;
-	
+	font-family: "Scope One", serif;
 }
 
 main {
@@ -40,41 +39,56 @@ main {
 	background-color: white;
 }
 
-.parallax{
-	background-image: url("images/pexels-picjumbocom-196646.jpg");
-	min-height:275px;
-
+.parallax {
+	background-image: linear-gradient(to right bottom, #536c6d, #536c6dad),
+		url(./images/pexels-picjumbocom-196646.jpg);
+	min-height: 600px;
+	clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
 	background-attachment: fixed;
-	background-position: bottom;
-	background-repeat: no-repeat;
+	background-position: top;
 	background-size: cover;
-}
-.top {
-	background-color: #536c6d;
+	position: relative;
 }
 
-.intro {
-	line-height: 2.5rem;
-	font-size: 24px;
-	font-family: 'Raleway', sans-serif;
-	animation: fadeIn ease 2s;
+.heading-primary {
+	color: #fff;
+	padding-top: 40px;
+	font-family: "Raleway", sans-serif;
 	-webkit-animation: fadeIn ease 2s;
 	-moz-animation: fadeIn ease 2s;
 	-o-animation: fadeIn ease 2s;
 	-ms-animation: fadeIne ease 2s;
+	animation: fadeIn ease 2s;
 }
-.projectsDirect{
-	font-size:16px;
-	transition:transform .2s;
-	font-family: 'Scope One', serif;
+
+.heading-primary-main {
+	text-transform: uppercase;
+	display: block;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 15px;
+}
+.heading-primary-sub {
+	display: block;
+	padding-top: 10px;
+	font-weight: 400;
+	font-size: 22px;
+	letter-spacing: 3px;
+	width:990px;
+	line-height: 30px;
+}
+
+.projectsDirect {
+	font-size: 16px;
+	transition: transform 0.2s;
+	font-family: "Raleway", serif;
 	letter-spacing: 1px;
 }
 
-.projectsDirect:hover{
-	color:#ebe4d2;
+.projectsDirect:hover {
+	color: #ebe4d2;
 	cursor: pointer;
 }
-
 
 @keyframes fadeIn {
 	0% {
@@ -137,68 +151,69 @@ main {
 
 .icons {
 	font-size: 4rem;
-	color:#1a2323;
+	color: #1a2323;
 }
 
-h2, h3, h4 {
-	font-family: 'Scope One', serif;
+h2,
+h3,
+h4 {
+	font-family: "Scope One", serif;
 }
 .about {
 	margin: 0 auto;
 	color: #1a2323;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	background-color: #ebe4d2;
 }
 
-.contact-me{
+.contact-me {
 	background-color: white;
-	color:#1a2323;
+	color: #1a2323;
 }
-.inner-box{
+.inner-box {
 	background-color: #536c6d;
-	width:100vw;
-	height:400px;
-	color:white;
-	padding:0 40 0 40;
+	width: 100vw;
+	height: 400px;
+	color: white;
+	padding: 0 40 0 40;
 	align-items: center;
 	text-align: center;
 }
 
-form{
-	color:white;
+form {
+	color: white;
 }
 
 .btn-lg {
 	background-color: #1a2323;
 	border-radius: 0;
-	color:white;
+	color: white;
 }
-.btn-lg:hover{
+.btn-lg:hover {
 	cursor: pointer;
-	color:#536c6d;
+	color: #536c6d;
 }
-
 
 /*-----------------------PROJECTS PAGE---------------------*/
 .featurette-heading,
 .text-muted {
-	font-family: 'Scope One',serif;
+	font-family: "Scope One", serif;
 }
 .btn-custom {
 	background-color: #536c6d;
 	color: white;
-	font-family: 'Raleway',sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 #about {
 	color: black;
-	font-family: 'Poiret One', cursive;
+	font-family: "Poiret One", cursive;
 }
 
 /*--------------FOOTER-----------------------------*/
 footer {
 	background-color: #1a2323;
 	color: #ebe4d2;
-	font-family: 'Scope One', serif;
+	font-family: "Scope One", serif;
 }
 #footer-content {
 	text-align: center;
