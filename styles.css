@@ -74,7 +74,7 @@ main {
 	font-weight: 400;
 	font-size: 22px;
 	letter-spacing: 3px;
-	width:990px;
+	max-width:990px;
 	line-height: 30px;
 }
 
