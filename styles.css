@@ -5,7 +5,7 @@
 
 .navbar-custom {
 	background-color: #1a2323;
-	font-family: "Scope One", serif;
+	font-family: "Poiret One", serif;
 	color: #ebe4d2;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -214,10 +214,13 @@ form {
 footer {
 	background-color: #1a2323;
 	color: #ebe4d2;
-	font-family: "Scope One", serif;
+	font-family: "Poiret One", serif;
 }
 #footer-content {
 	text-align: center;
+}
+.footer-copyright{
+	font-size:12px;
 }
 #social {
 	color: #ebe4d2;
