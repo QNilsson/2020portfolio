@@ -6,6 +6,7 @@
 .navbar-custom {
 	background-color: #1a2323;
 	font-family: "Poiret One", serif;
+	text-transform: uppercase;
 	color: #ebe4d2;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
