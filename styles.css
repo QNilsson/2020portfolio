@@ -5,12 +5,13 @@
 
 .navbar-custom {
 	background-color: #1a2323;
-	font-family: 'Poiret One', cursive;
+	font-family: "Poiret One", serif;
+	text-transform: uppercase;
 	color: #ebe4d2;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
 	color: #ebe4d2;
-	font-size: 20px;
+	font-size: 15px;
 	display: flex;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link:hover {
@@ -27,11 +28,11 @@ body {
 	background-color: white;
 	color: white;
 	font-size: 20px;
-	font-family: 'GFS Neohellenic', sans-serif;
+	font-family: "Raleway", sans-serif;
 	padding-bottom: 0;
 }
 h1 {
-	font-family: 'Poiret One', cursive;
+	font-family: "Scope One", serif;
 }
 
 main {
@@ -39,34 +40,57 @@ main {
 	background-color: white;
 }
 
-.top {
-	background-color: #536c6d;
-}
-#img2 {
-	height: 350px;
-	max-width: 350px;
-	border: 1px solid #ebe4d2;
-}
-#me-photo {
-	text-align: center;
-	line-height: 2.5rem;
-	font-family: 'Raleway', sans-serif;
-	animation: fadeIn ease 2s;
-	-webkit-animation: fadeIn ease 2s;
-	-moz-animation: fadeIn ease 2s;
-	-o-animation: fadeIn ease 2s;
-	-ms-animation: fadeIne ease 2s;
+.parallax {
+	background-image: linear-gradient(to right bottom, #536c6d, #536c6dad),
+		url(./images/pexels-picjumbocom-196646.jpg);
+	min-height: 600px;
+	clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
+	background-attachment: fixed;
+	background-position: top;
+	background-size: cover;
+	position: relative;
 }
 
-.intro {
-	line-height: 2.5rem;
-	font-family: 'Raleway', sans-serif;
-	animation: fadeIn ease 2s;
-	-webkit-animation: fadeIn ease 2s;
-	-moz-animation: fadeIn ease 2s;
-	-o-animation: fadeIn ease 2s;
-	-ms-animation: fadeIne ease 2s;
+.heading-primary {
+	color: #fff;
+	padding-top: 40px;
+	font-family: "Raleway", sans-serif;
+	-webkit-animation: fadeIn ease-in 2.5;
+	-moz-animation: fadeIn ease-in 2.5;
+	-o-animation: fadeIn ease-in 2.5;
+	-ms-animation: fadeIne ease-in 2.5;
+	animation: fadeIn ease-in 2.5s;
 }
+
+.heading-primary-main {
+	text-transform: uppercase;
+	display: block;
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 15px;
+}
+.heading-primary-sub {
+	display: block;
+	padding-top: 10px;
+	font-weight: 400;
+	font-size: 22px;
+	letter-spacing: 3px;
+	max-width:990px;
+	line-height: 30px;
+}
+
+.projectsDirect {
+	font-size: 16px;
+	transition: transform 0.2s;
+	font-family: "Raleway", serif;
+	letter-spacing: 1px;
+}
+
+.projectsDirect:hover {
+	color: #ebe4d2;
+	cursor: pointer;
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
@@ -128,61 +152,76 @@ main {
 
 .icons {
 	font-size: 4rem;
+	color: #1a2323;
 }
 
-h2 {
-	font-family: 'Poiret One', cursive;
+h2,
+h3,
+h4 {
+	font-family: "Scope One", serif;
 }
 .about {
 	margin: 0 auto;
 	color: #1a2323;
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	background-color: #ebe4d2;
 }
 
-#engage {
-	width: 100%;
-	height: auto;
-	border: 1px solid #536c6d;
-}
-
-#bio {
-	font-size: 22px;
-	height: auto;
-	overflow-wrap: break-word;
-}
-.my-life {
-	overflow: hidden;
-	vertical-align: middle;
-}
-
-h4 {
+.contact-me {
+	display: none;
+	background-color: white;
 	color: #1a2323;
-	font-family: 'Poiret', sans-serif;
+}
+.inner-box {
+	background-color: #536c6d;
+	width: 100vw;
+	height: 400px;
+	color: white;
+	padding: 0 40 0 40;
+	align-items: center;
+	text-align: center;
+}
+
+form {
+	color: white;
+}
+
+.btn-lg {
+	background-color: #1a2323;
+	border-radius: 0;
+	color: white;
+}
+.btn-lg:hover {
+	cursor: pointer;
+	color: #536c6d;
 }
 
 /*-----------------------PROJECTS PAGE---------------------*/
 .featurette-heading,
 .text-muted {
-	font-family: 'Poiret One', cursive;
+	font-family: "Scope One", serif;
 }
 .btn-custom {
 	background-color: #536c6d;
 	color: white;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Raleway", sans-serif;
 }
 #about {
 	color: black;
-	font-family: 'Poiret One', cursive;
+	font-family: "Poiret One", cursive;
 }
+
 /*--------------FOOTER-----------------------------*/
 footer {
 	background-color: #1a2323;
 	color: #ebe4d2;
-	font-family: 'Raleway';
+	font-family: "Poiret One", serif;
 }
 #footer-content {
 	text-align: center;
+}
+.footer-copyright{
+	font-size:12px;
 }
 #social {
 	color: #ebe4d2;

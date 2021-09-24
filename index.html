@@ -3,6 +3,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<script src="./javascript/index.js"></script>
+		<link rel="shortcut icon" type="image/png" href="images/qn_adobespark.jpeg">
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<link
 			rel="stylesheet"
@@ -16,18 +17,15 @@
 			rel="stylesheet"
 		/>
 		<link
-			href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap"
-			rel="stylesheet"
-		/>
-		<link
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Scope+One&display=swap"
 			rel="stylesheet"
 		/>
-		<title>Quinn's Portfolio</title>
+		<title>Quinn | Home</title>
 	</head>
 
 	<body class="d-flex flex-column" style="min-height: 100vh">
@@ -41,47 +39,58 @@
 					<a class="nav-link" href="/projects.html">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/images/Resume4.0.pdf" target="_blank">Resume<i id="download" class="fas fa-cloud-download-alt"></i></a>
+					<a class="nav-link" href="/images/ResumeMay2021.pdf" target="_blank"
+						>Resume<i id="download" class="fas fa-cloud-download-alt"></i
+					></a>
 				</li>
 			</ul>
 		</nav>
 
 		<main class="mx-auto flex-fill">
-			<div class="top py-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-sm-12">
-							<div class="intro py-4">
-								<h1>Hi I'm Quinn</h1>
-								<p>
-									I am graduating from Utah Valley University with a Bachelor's Degree in Web & 
-									App Development and am seeking a position as a front-end developer. I work well in teams
-									and enjoy problem solving. Creating beautiful websites and apps is something I'm passionate about 
-									and I look forward to the infinite opportunities to learn.
-								</p>
+			<div class="top">
+				<div class="parallax">
+					<div class="container py-5">
+						<div class="row">
+							<div class="col-md-12 col-sm-12 py-5">
+								<div class="intro py-4">
+									<h1 class="heading-primary">
+										
+										<span class="heading-primary-main"
+											>Developer & Designer</span
+										>
+										<span class="heading-primary-sub"
+											>web & app development grad passionate about creating custom code and continuous learning</span
+										>
+										<span><a href="/projects.html">
+											<div class="projectsDirect py-5">
+												SEE MY PROJECTS
+												<i class="fas fa-long-arrow-alt-right"></i>
+											</div>
+										</a></span>
+									</h1>
+
+									
+								</div>
 							</div>
+							<!--end column-->
 						</div>
-						<!--end column-->
-						<div class="col-md-6 col-sm-12 px-3" id="me-photo">
-							<img
-								id="img2"
-								class="img-fluid"
-								src="/images/compressed.JPG"
-								alt=""
-							/>
-						</div>
-						<!--end column-->
+						<!--end row-->
 					</div>
-					<!--end row-->
+					<!--end container-->
 				</div>
-				<!--end container-->
 			</div>
 			<!--end top-->
-			<div class="container-fluid text-center py-4">
+			<div class="container-fluid text-center py-5">
 				<div class="row">
-					<div class="col-md-6 col-sm-12 px-5" data-aos="fade-right" data-aos-duration="1100" data-aos-easing="ease-in-out" id="skills">
-						<h2 px-4 py-4>My Skills</h2>
-						<div class="icons py-3 px-5" >
+					<div
+						class="col-md-6 col-sm-12 px-5"
+						data-aos="fade-right"
+						data-aos-duration="1100"
+						data-aos-easing="ease-in-out"
+						id="skills"
+					>
+						<h2 px-4 py-4>SKILLS</h2>
+						<div class="icons py-3 px-5">
 							<i class="fab fa-html5 icon-large"></i>
 							<i class="fab fa-css3-alt mx-2"></i>
 							<i class="fab fa-sass mx-2"></i>
@@ -94,37 +103,97 @@
 						</div>
 					</div>
 					<!--end col skills-->
-					<div class="col-md-6 col-sm-12 px-5" data-aos="fade-left" data-aos-duration="1100" data-aos-easing="ease-in-out"id="hobbies">
-						<h2 px-4 py-4>My Hobbies</h2>
-						<div class="icons py-3 px-5">
-							<i class="fas fa-cat mx-3"></i>
-							<i class="fas fa-dog"></i>
-							<i class="fas fa-campground mx-3"></i>
-							<i class="fas fa-music mx-3"></i>
-							<i class="fas fa-cookie-bite mx-3"></i>
+					<div
+						class="col-md-4 col-sm-12 px-5"
+						data-aos="fade-left"
+						data-aos-duration="1100"
+						data-aos-easing="ease-in-out"
+						id="hobbies"
+					>
+						<h2 px-4 py-4>CERTIFICATIONS</h2>
+						<div class="py-3 px-5 d-flex">
+							<img class="w-100 p-3" src="/images/uvu_seal.svg" alt="" />
+							<p class="px-4 py-5">Bachelor's in Web & App Development</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!--end container-->
-			<div class="about py-5">
+			<div class="about py-5 px-5">
 				<div class="container-fluid py-5">
-					<div class="row my-life">
-						<div class="col-lg-4 col-md-6 col-sm-12 px-4" data-aos="flip-left" data-aos-duration="1300" data-aos-delay="250">
-							<img src="/images/engage.jpg" alt="" id="engage" />
+					<h2 class="py-4">ABOUT</h2>
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<img class="w-100" src="/images/q&b2021.jpg" alt="" />
 						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12" id="bio">
-							Currently I am living in the tiny town of Copperton, Utah with my
-							amazing husband Brandon. We were married in July of 2019 and have
-							lived happily ever after. Right now we are both going to school
-							and taking care of our pets, Kona, Kawfee, and Fresca.
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-12 px-4" data-aos="flip-right" data-aos-duration="1300" data-aos-delay="250">
-							<img src="/images/engage2.jpg" id="engage" alt="" />
+
+						<div class="col-md-6 col-sm-12">
+							<h4><strong>Hi I'm Quinn!</strong></h4>
+							<p>
+								I love to design and create websites. My passion for design
+								began with interior design and now encompasses design on the
+								web. Simplicity is key for me, everything I create must be
+								beautiful and easy to use. <br />
+								<br />Currently I live with my husband and our 3 pets in a small
+								Utah town. We are expecting our first baby girl in September and
+								could not be more excited!<br /><br />I hope to gain more
+								inspiration and ideas throughout my new life experiences.
+							</p>
 						</div>
 					</div>
+					<!--end row-->
 				</div>
+				<!--end container fluid-->
 			</div>
+			<!--end about-->
+
+			<div class="contact-me py-5">
+				<div class="container-fluid py-5">
+					<div class="row d-flex justify-content-center py-5">
+						<div class="inner-box">
+							<h3 class="py-4">Contact Me</h3>
+							<p class="d-flex justify-content-center">
+								Send me a message with a brief project description and let's
+								start working together
+							</p>
+							<form>
+								<div class="form-row px-5">
+									<div class="form-group col-md-6">
+										<input
+											type="text"
+											class="form-control"
+											name="name"
+											placeholder="Name"
+										/>
+									</div>
+									<div class="form-group col-md-6">
+										<input
+											type="text"
+											class="form-control"
+											name="email"
+											placeholder="Email"
+										/>
+									</div>
+								</div>
+
+								<div class="form-group px-5">
+									<textarea
+										type="text"
+										placeholder="Brief Project Description..."
+										class="form-control"
+										name="desc"
+										rows="3"
+									></textarea>
+								</div>
+								<input class="btn btn-lg" value="SEND" />
+							</form>
+						</div>
+					</div>
+					<!--end row-->
+				</div>
+				<!--end container fluid-->
+			</div>
+			<!--end about-->
 		</main>
 		<!-- Footer -->
 		<footer class="page-footer font-small blue pt-4">
@@ -135,15 +204,23 @@
 					<!-- Grid column -->
 					<div class="col-md-4 mt-md-0 mt-3" id="footer-content">
 						<!-- Content -->
-						<h5 class="text-uppercase">Contact Me:</h5>
+						<h5 class="text-uppercase">Contact</h5>
 						<span class="d-flex justify-content-center"
 							><i id="contact" class="far fa-envelope"></i>
-							<p class="px-1"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@gmail.com" target="_blank">quinn.nilsson@gmail.com</a></p></span
-						>
-						<span class="d-flex justify-content-center"
+							<p class="px-1">
+								<a
+									href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=someone@gmail.com"
+									target="_blank"
+									>quinn.nilsson@gmail.com</a
+								>
+							</p>
+						</span>
+						<!-- <span class="d-flex justify-content-center"
 							><i id="contact" class="fas fa-mobile-alt"></i>
-							<p class="px-1"><a href="sms:+1-801-651-0354">801-651-0354</a></p></span
-						>
+							<p class="px-1">
+								<a href="sms:+1-801-651-0354">801-651-0354</a>
+							</p>
+						</span> -->
 					</div>
 					<!-- Grid column -->
 
@@ -196,14 +273,15 @@
 
 			<!-- Copyright -->
 			<div class="footer-copyright text-center py-3">
-				© 2020 Copyright: Quinn Nilsson
+				© 2021 Copyright: Quinn Nilsson
 			</div>
 			<!-- Copyright -->
 		</footer>
 		<!-- Footer -->
+
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
-		  AOS.init();
+			AOS.init();
 		</script>
 	</body>
 	<script
