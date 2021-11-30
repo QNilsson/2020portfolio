@@ -55,11 +55,11 @@ main {
 	color: #fff;
 	padding-top: 40px;
 	font-family: "Raleway", sans-serif;
-	-webkit-animation: fadeIn ease-in 2.5;
-	-moz-animation: fadeIn ease-in 2.5;
-	-o-animation: fadeIn ease-in 2.5;
-	-ms-animation: fadeIne ease-in 2.5;
-	animation: fadeIn ease-in 2.5s;
+	-webkit-animation: fadeIn ease-in 1.5;
+	-moz-animation: fadeIn ease-in 1.5;
+	-o-animation: fadeIn ease-in 1.5;
+	-ms-animation: fadeIne ease-in 1.5;
+	animation: fadeIn ease-in 1.5s;
 }
 
 .heading-primary-main {
@@ -70,6 +70,7 @@ main {
 	letter-spacing: 15px;
 }
 .heading-primary-sub {
+	
 	display: block;
 	padding-top: 10px;
 	font-weight: 400;
@@ -185,6 +186,7 @@ h4 {
 	color: #1a2323;
 	font-family: "Raleway", sans-serif;
 	background-color: #ebe4d2;
+	
 }
 
 .contact-me {
