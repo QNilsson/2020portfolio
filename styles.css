@@ -5,7 +5,7 @@
 
 .navbar-custom {
 	background-color: #1a2323;
-	font-family: "Poiret One", serif;
+	font-family: "Poppins", serif;
 	text-transform: uppercase;
 	color: #ebe4d2;
 }
@@ -28,11 +28,11 @@ body {
 	background-color: white;
 	color: white;
 	font-size: 20px;
-	font-family: "Raleway", sans-serif;
+	font-family: "Poppins", sans-serif;
 	padding-bottom: 0;
 }
 h1 {
-	font-family: "Scope One", serif;
+	font-family: "Playfair Display", serif;
 }
 
 main {
@@ -54,7 +54,7 @@ main {
 .heading-primary {
 	color: #fff;
 	padding-top: 40px;
-	font-family: "Raleway", sans-serif;
+	font-family: "Playfair Display", serif;
 	-webkit-animation: fadeIn ease-in 1.5;
 	-moz-animation: fadeIn ease-in 1.5;
 	-o-animation: fadeIn ease-in 1.5;
@@ -103,7 +103,7 @@ main {
 .projectsDirect {
 	font-size: 16px;
 	transition: transform 0.2s;
-	font-family: "Raleway", serif;
+	font-family: "Poppins", serif;
 	letter-spacing: 1px;
 }
 
@@ -179,12 +179,13 @@ main {
 h2,
 h3,
 h4 {
-	font-family: "Scope One", serif;
+	font-family: "Playfair Display", serif;
 }
 .about {
+	clip-path: polygon(0 5%, 100% 25%, 100% 100%, 0 100%);
 	margin: 0 auto;
 	color: #1a2323;
-	font-family: "Raleway", sans-serif;
+	font-family: "Poppins", sans-serif;
 	background-color: #ebe4d2;
 	
 }
@@ -221,23 +222,23 @@ form {
 /*-----------------------PROJECTS PAGE---------------------*/
 .featurette-heading,
 .text-muted {
-	font-family: "Scope One", serif;
+	font-family: "Playfair Display", serif;
 }
 .btn-custom {
 	background-color: #536c6d;
 	color: white;
-	font-family: "Raleway", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 #about {
 	color: black;
-	font-family: "Poiret One", cursive;
+	font-family: "Poppins", sans-serif;
 }
 
 /*--------------FOOTER-----------------------------*/
 footer {
 	background-color: #1a2323;
 	color: #ebe4d2;
-	font-family: "Poiret One", serif;
+	font-family: "Playfair Display", serif;
 }
 #footer-content {
 	text-align: center;
