@@ -7,18 +7,18 @@
 	background-color: #ddc6a4;
 	font-family: "Playfair Display", serif;
 	text-transform: uppercase;
-	color: #474a4f;
+	color: white;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
-	color: #474a4f;
+	color: white;
 	font-size: 15px;
 	display: flex;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link:hover {
-	color: #536c6d;
+	color: #474a4f;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link:active {
-	color: #536c6d;
+	color: #474a4f;
 }
 #download {
 	padding: 5 15 5 10;
@@ -190,7 +190,7 @@ h4 {
 .about {
 	clip-path: polygon(0 5%, 100% 25%, 100% 100%, 0 100%);
 	margin: 0 auto;
-	color: #1a2323;
+	color: #474a4f;
 	font-family: "Poppins", sans-serif;
 	background-color: #f4eae9;
 }
@@ -235,14 +235,14 @@ form {
 	font-family: "Poppins", sans-serif;
 }
 #about {
-	color: black;
+	color: #474a4f;
 	font-family: "Poppins", sans-serif;
 }
 
 /*--------------FOOTER-----------------------------*/
 footer {
 	background-color: #ddc6a4;
-	color: #474a4f;
+	color: white;
 	font-family: "Playfair Display", serif;
 }
 #footer-content {
@@ -250,9 +250,11 @@ footer {
 }
 .footer-copyright {
 	font-size: 12px;
+	background-color:white;
+	color:#474a4f;
 }
 #social {
-	color: #474a4f;
+	color: white;
 	font-size: 35px;
 	padding: 5px;
 }
