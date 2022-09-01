@@ -32,16 +32,16 @@ body {
 	padding-bottom: 0;
 }
 h1 {
-	font-family: "Playfair Display", serif;
+	font-family: "Marshland_Beauty", serif;
 }
 
 main {
 	width: 100%;
-	background-color: white;
+	background-color: #F8EDD2;
 }
 
 .parallax {
-	background-image: linear-gradient(to right bottom, #536c6d, #536c6dad),
+	background-image: linear-gradient(to right bottom, #ED6330, #ED6330ad),
 		url(./images/pexels-picjumbocom-196646.jpg);
 	min-height: 600px;
 	clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
@@ -158,14 +158,14 @@ main {
 
 #skills {
 	color: black;
-	background-color: white;
+	
 	margin-top: 100px;
 	margin-bottom: 100px;
 	position: relative;
 }
 #hobbies {
 	color: black;
-	background-color: white;
+	
 	margin-top: 100px;
 	margin-bottom: 100px;
 	position: relative;
@@ -186,7 +186,7 @@ h4 {
 	margin: 0 auto;
 	color: #1a2323;
 	font-family: "Poppins", sans-serif;
-	background-color: #ebe4d2;
+	background-color: #ECAE7A
 	
 }
 
