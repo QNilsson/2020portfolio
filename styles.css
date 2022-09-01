@@ -4,13 +4,13 @@
 /*-----------------------NAVIGATION---------------*/
 
 .navbar-custom {
-	background-color: #1a2323;
-	font-family: "Poppins", serif;
+	background-color: #ddc6a4;
+	font-family: "Playfair Display", serif;
 	text-transform: uppercase;
-	color: #ebe4d2;
+	color: #474a4f;
 }
 .navbar-custom .navbar-nav .nav-item .nav-link {
-	color: #ebe4d2;
+	color: #474a4f;
 	font-size: 15px;
 	display: flex;
 }
@@ -26,7 +26,7 @@
 /*------------HOME CONTENT------------*/
 body {
 	background-color: white;
-	color: white;
+	color: #474a4f;
 	font-size: 20px;
 	font-family: "Poppins", sans-serif;
 	padding-bottom: 0;
@@ -37,11 +37,11 @@ h1 {
 
 main {
 	width: 100%;
-	background-color: #F8EDD2;
+	background-color: white;
 }
 
 .parallax {
-	background-image: linear-gradient(to right bottom, #ED6330, #ED6330ad),
+	background-image: linear-gradient(to right bottom, #f4eae9, #f4eae9ad),
 		url(./images/pexels-picjumbocom-196646.jpg);
 	min-height: 600px;
 	clip-path: polygon(0 0, 100% 0, 100% 77%, 0% 100%);
@@ -52,7 +52,7 @@ main {
 }
 
 .heading-primary {
-	color: #fff;
+	color: #474a4f;
 	padding-top: 40px;
 	font-family: "Playfair Display", serif;
 	-webkit-animation: fadeIn ease-in 1.5;
@@ -70,34 +70,40 @@ main {
 	letter-spacing: 15px;
 }
 .heading-primary-sub {
-	
 	display: block;
 	padding-top: 10px;
 	font-weight: 400;
 	font-size: 22px;
 	letter-spacing: 3px;
-	max-width:990px;
+	max-width: 990px;
 	line-height: 30px;
 }
 
 #typewriter {
-	overflow:hidden;
-	border-right: .1em solid white;
+	overflow: hidden;
+	border-right: 0.1em solid white;
 	white-space: nowrap;
-	margin:0 auto;
-	animation:
-		typing 3.5s steps(30, end),
-		blink-caret .5s step-end infinite;
+	margin: 0 auto;
+	animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-@keyframes typing{
-	from{width:0}
-	to{width:100%}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
 }
 
-@keyframes blink-caret{
-	from, to{border-color: transparent}
-	50%{border-color:white}
+@keyframes blink-caret {
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: white;
+	}
 }
 
 .projectsDirect {
@@ -108,7 +114,7 @@ main {
 }
 
 .projectsDirect:hover {
-	color: #ebe4d2;
+	color: #474a4f;
 	cursor: pointer;
 }
 
@@ -157,15 +163,15 @@ main {
 }
 
 #skills {
-	color: black;
-	
+	color: #474a4f;
+
 	margin-top: 100px;
 	margin-bottom: 100px;
 	position: relative;
 }
 #hobbies {
-	color: black;
-	
+	color: #474a4f;
+
 	margin-top: 100px;
 	margin-bottom: 100px;
 	position: relative;
@@ -173,7 +179,7 @@ main {
 
 .icons {
 	font-size: 4rem;
-	color: #1a2323;
+	color: #474a4f;
 }
 
 h2,
@@ -186,8 +192,7 @@ h4 {
 	margin: 0 auto;
 	color: #1a2323;
 	font-family: "Poppins", sans-serif;
-	background-color: #ECAE7A
-	
+	background-color: #f4eae9;
 }
 
 .contact-me {
@@ -196,10 +201,10 @@ h4 {
 	color: #1a2323;
 }
 .inner-box {
-	background-color: #536c6d;
+	background-color: #f4eae9;
 	width: 100vw;
 	height: 400px;
-	color: white;
+	color: #474a4f;
 	padding: 0 40 0 40;
 	align-items: center;
 	text-align: center;
@@ -216,7 +221,7 @@ form {
 }
 .btn-lg:hover {
 	cursor: pointer;
-	color: #536c6d;
+	color: #f4eae9;
 }
 
 /*-----------------------PROJECTS PAGE---------------------*/
@@ -225,8 +230,8 @@ form {
 	font-family: "Playfair Display", serif;
 }
 .btn-custom {
-	background-color: #536c6d;
-	color: white;
+	background-color: #f4eae9;
+	color: #474a4f;
 	font-family: "Poppins", sans-serif;
 }
 #about {
@@ -236,23 +241,23 @@ form {
 
 /*--------------FOOTER-----------------------------*/
 footer {
-	background-color: #1a2323;
-	color: #ebe4d2;
+	background-color: #ddc6a4;
+	color: #474a4f;
 	font-family: "Playfair Display", serif;
 }
 #footer-content {
 	text-align: center;
 }
-.footer-copyright{
-	font-size:12px;
+.footer-copyright {
+	font-size: 12px;
 }
 #social {
-	color: #ebe4d2;
+	color: #474a4f;
 	font-size: 35px;
 	padding: 5px;
 }
 #social:hover {
-	color: #536c6d;
+	color: #f4eae9;
 }
 
 #contact {
@@ -260,7 +265,7 @@ footer {
 	padding: 7 5 5 5;
 }
 a:hover {
-	color: #536c6d;
+	color: #f4eae9;
 }
 a {
 	text-decoration: none;
